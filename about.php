@@ -55,7 +55,7 @@ unset($_SESSION['errors'], $_SESSION['success']);
     <form action="send_message.php" method="POST" class="mt-4">
       <div class="mb-3">
         <label for="name" class="form-label">Name</label>
-        <input type="text" class="form-control" id="name" name="name" placeholder="Ваше имя" required>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Email</label>
@@ -63,7 +63,7 @@ unset($_SESSION['errors'], $_SESSION['success']);
       </div>
       <div class="mb-3">
         <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Ваше сообщение..." required></textarea>
+        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
       </div>
       <button type="submit" class="btn btn-outline-light">Send</button>
     </form>

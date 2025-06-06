@@ -81,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <form method="POST" action="register.php" novalidate>
           <div class="mb-3">
             <label for="username" class="form-label">Username</label>
-            <input type="text" class="form-control <?= isset($errors['username']) ? 'is-invalid' : '' ?>" id="username" name="username" required placeholder="Введите имя" value="<?= htmlspecialchars($username) ?>">
+            <input type="text" class="form-control <?= isset($errors['username']) ? 'is-invalid' : '' ?>" id="username" name="username" required placeholder="Your name" value="<?= htmlspecialchars($username) ?>">
             <?php if (isset($errors['username'])): ?>
               <div class="form-text"><?= $errors['username'] ?></div>
             <?php endif; ?>
