@@ -1,8 +1,8 @@
 <?php
-$host = 'sql210.infinityfree.com';
-$db   = 'if0_39172511_recipewall';
-$user = 'if0_39172511';
-$pass = 'wSBl1SDP00QP';
+$host = 'localhost';
+$db   = 'recipe';
+$user = 'root';
+$pass = '';
  
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);
