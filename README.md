@@ -2,8 +2,6 @@
 
 **Recipe Wall** is a simple PHP + MySQL web application that allows users to register, log in, browse, add and search recipes. It also includes a subscription form and a responsive dark-themed UI built with Bootstrap 5.
 
-🔗 **Live Demo:** [https://recipewall.42web.io](https://recipewall.42web.io)
-
 ---
 
 ## 🚀 Features
@@ -23,7 +21,6 @@
 - **MySQL**
 - **Bootstrap 5**
 - **Vanilla JavaScript**
-- Hosting: [InfinityFree](https://infinityfree.net)
 
 ---
 
@@ -71,10 +68,9 @@ recipe-wall/
 
 ---
 
-## 🌐 Live Hosting
+## ✨ Project Mockup
+![Mockup](docs/mockup.png)
 
-The project is deployed on a free hosting service and available here:  
-🔗 [https://recipewall.42web.io](https://recipewall.42web.io)
 
 ---
 
